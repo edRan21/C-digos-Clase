@@ -1,0 +1,188 @@
+// este es un comentario en C++
+
+#include <iostream>
+int main() {
+    int contador = 0;
+    float promedio = 43.54;
+    
+    std::cout << promedio << "Este es el promedio" << std::endl
+    return 0;
+}
+
+
+
+/* https://carlos.almxlvx.com/ProgBasicaD2 */
+
+
+// Ejemplo 3
+
+#include <iostream>
+int main() {
+    int total = 0;         // válido
+    int _contador = 10;    // válido
+    // int 3x = 5;         // inválido: no puede iniciar con dígito
+    // int double = 7;     // inválido: 'double' es palabra reservada
+    std::cout << total + _contador << std::endl;
+    return 0;
+}
+
+
+
+
+// Ejemplo 4
+#include <iostream>
+int main() {
+    int numero = 5;
+    float decimal = 2.5f;
+    if (numero > decimal) {
+        std::cout << "numero es mayor que decimal" << std::endl;
+    }
+    // int if = 1;     // inválido
+    // int return = 2; // inválido
+    // float float = 3;// inválido
+    return 0;
+}
+
+
+
+
+
+
+
+// Ejemplo 5
+#include <iostream>
+int sumar(int a, int b) { return a + b; }
+int main() {
+    std::cout << "Suma: " << sumar(3, 4) << std::endl;
+    return 0;
+}
+
+
+
+
+
+// Ejemplo 6
+#include <iostream>
+int main() {
+    int i = 7;
+    float f = 3.14f;
+    char c = 'Z';
+    bool b = true;
+    double d = 2.718281828;
+    std::cout << i << " " << f << " " << c << " " << b << " " << d << std::endl;
+    return 0;
+}
+
+
+
+// Ejemplo 6
+#include <iostream>
+int main() {
+    int i = 7;
+    float f = 3.14f;
+    char c = 'Z';
+    bool b = true;
+    double d = 2.718281828;
+    std::cout << i << " " << f << " " << c << " " << b << " " << d << std::endl;
+    return 0;
+}
+
+
+
+
+// 9/09/2025
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 5, b = 3;
+    int suma = a + b;        // expresión y asignación
+    int producto = a * b;    // otra expresión
+    cout << "Suma: " << suma << ", Producto: " << producto << endl;
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+EJEMPLO 2
+#include <iostream>
+using namespace std;
+
+int main() {
+    int edad = 20;
+    bool tieneINE = true;
+
+    if (edad >= 18 && tieneINE) {
+        cout << "Puede votar" << endl;
+    } else {
+        cout << "No puede votar" << endl;
+    }
+    return 0;
+}
+
+
+
+
+
+
+EJEMPLO 3 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    bool a = true, b = false;
+
+    cout << "a AND b: " << (a and b) << endl;
+    cout << "a OR b: "  << (a or b)  << endl;
+    cout << "a XOR b: " << (a xor b) << endl;
+    cout << "NOT a: "   << (not a)   << endl;
+    return 0;
+}
+
+
+
+
+
+
+EJEMPLO 4
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero;
+    cout << "Ingresa un numero: ";
+    cin >> numero;
+
+    if (numero > 0) {
+        cout << "Es positivo" << endl;
+    }
+    return 0;
+}
+
+
+
+
+EJEMPLO5
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero;
+    cout << "Ingresa un numero: ";
+    cin >> numero;
+
+    if (numero % 2 == 0) {
+        cout << "Es par" << endl;
+    } else {
+        cout << "Es impar" << endl;
+    }
+    return 0;
+}
