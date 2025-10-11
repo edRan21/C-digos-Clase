@@ -1,32 +1,11 @@
-Códigos desarrollados de Programación Básica 
+Programación Básica. 
+  1. Códigos vistos en clase.
+  2. Algoritmos.
+  3. Practica de lógica y solución de problemas
+  4. Apuntes importantes.
+  5. Proyectos.
+  6. Workspace de programación.
 
-                                          ..
-                                  ,,,                         MM .M
-                              ,!MMMMMMM!,                     MM MM  ,.
-      ., .M                .MMMMMMMMMMMMMMMM.,          'MM.  MM MM .M'
-    . M: M;  M          .MMMMMMMMMMMMMMMMMMMMMM,          'MM,:M M'!M'
-   ;M MM M: .M        .MMMMMMMMMMMMMMMMMMMMMMMMMM,         'MM'...'M
-    M;MM;M :MM      .MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.       .MMMMMMMM
-    'M;M'M MM      MMMMMM  MMMMMMMMMMMMMMMMM  MMMMMM.    ,,M.M.'MMM'
-     MM'MMMM      MMMMMM @@ MMMMMMMMMMMMMMM @@ MMMMMMM.'M''MMMM;MM'
-    MM., ,MM     MMMMMMMM  MMMMMMMMMMMMMMMMM  MMMMMMMMM      '.MMM
-    'MM;MMMMMMMM.MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.      'MMM
-     ''.'MMM'  .MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM       MMMM
-      MMC      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.      'MMMM
-     .MM      :MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM''MMM       MMMMM
-     MMM      :M  'MMMMMMMMMMMMM.MMMMM.MMMMMMMMMM'.MM  MM:M.    'MMMMM
-    .MMM   ...:M: :M.'MMMMMMMMMMMMMMMMMMMMMMMMM'.M''   MM:MMMMMMMMMMMM'
-   AMMM..MMMMM:M.    :M.'MMMMMMMMMMMMMMMMMMMM'.MM'     MM''''''''''''
-   MMMMMMMMMMM:MM     'M'.M'MMMMMMMMMMMMMM'.MC'M'     .MM
-    '''''''''':MM.       'MM!M.'M-M-M-M'M.'MM'        MMM
-               MMM.            'MMMM!MMMM'            .MM
-                MMM.             '''   ''            .MM'
-                 MMM.                               MMM'
-                  MMMM            ,.J.JJJJ.       .MMM'
-                   MMMM.       'JJJJJJJ'JJJM   CMMMMM
-                     MMMMM.    'JJJJJJJJ'JJJ .MMMMM'
-                       MMMMMMMM.'  'JJJJJ'JJMMMMM'
-                         'MMMMMMMMM'JJJJJ JJJJJ'
-                            ''MMMMMMJJJJJJJJJJ'
-                                    'JJJJJJJJ'	
-                                    
+HORARIO:
+Lunes:
+  Una hora de ----- en el EMA 4 AULA de Hardware 301
