@@ -5,21 +5,43 @@ using namespace std;
 
 int main (){
     cout << "Frase original: hola buenos dias\n";
-    string frase = "holabuenosdias"; // varible que almacenará la entrada del usuario (proximamente)
+    string frase1 = "hola";  
+    string frase2 = "buenos";
+    string frase3 = "dias";
 
 
-    for (int i = 0; i <= frase.size(); i++){ /*Recorre el algoritmo y asigna a cada caracter de este un espacio,
-                                                de esta forma la frase se convierte en un arreglo en donde cada letra 
-                                                utiliza un indice*/
+    for (int i = 0; i <= frase1.size(); i++){
+        int mod = i % 2;
+        if (mod == 0){
+            cout << (char)toupper(frase1[i]);
+        }
+        else 
+        cout << (char)tolower(frase1[i]);
+        
+    }
+    cout << " ";
 
-        int modulo = i % 2; // con ayuda del profesor tratamos a cada posición ubicar las letras mayúsculas, estas utilizan un indice impar
-        if (modulo == 0){
-            cout << (char)toupper(frase[i]);  // si es impar convierte la letra en mayúsculas
+    for (int i = 0; i <= frase2.size(); i++){
+        int mod = i % 2;
+        if (mod == 0){
+            cout << (char)toupper(frase2[i]);           // convertimos el contenido de cada indice de la palabra de tipo caracter a MAYÚSCULA
         }
         else {
-            cout << (char)tolower(frase[i]);  // si no, en minusculas
+            cout << (char)tolower(frase2[i]);           // si tiene residuo '1' lo convertimos a minuscula
         }
     }
+    cout << " ";
+
+    for (int i = 0; i <= frase3.size(); i++){
+        int mod = i % 2;
+        if (mod == 0){
+            cout << (char)toupper(frase3[i]);
+        }
+        else {
+            cout << (char)tolower(frase3[i]);
+        }
+    }
+
     return 0;
 
 }
