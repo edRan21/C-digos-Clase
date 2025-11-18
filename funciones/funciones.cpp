@@ -3,14 +3,20 @@
 using namespace std;
 
 // Prototipos de las funciones
-void mostrarMenu(string nombreUsuario); // La función ACEPTA un nombre
-string obtenerNombre();                 // Esta función DEVUELVE el nombre
+void mostrarMenu(string nombreUsuario);             // La función ACEPTA un nombre
+string obtenerDatos();                              // Esta función DEVUELVE el nombre y la contraseña
+void validarDatos(string usuarioPassword);                    // Esta función unicamente va ha validar si los datos ingresados son correctos
 
 int main() {
     // 1. Llamamos a la función para obtener el nombre y lo guardamos en una variable.
-    string nombre = obtenerNombre();
+    string nombre = obtenerDatos();
 
-    // 2. Le pasamos el nombre guardado a la función del menú.
+    string password = obtenerDatos();
+
+    // Ejecutamos la validación de datos
+    validarDatos(password);
+
+    // 4. Le pasamos el nombre guardado a la función del menú.
     mostrarMenu(nombre);
 
     return 0;
@@ -39,10 +45,24 @@ void mostrarMenu(string nombreUsuario) { // La función recibe el nombre
     }
 }
 
+void validarDatos(string usuarioPassword) {
+
+    cout << "Bienvenido, porfavor ingrese su nombre y contraseña: ";
+    
+    if (usuarioPassword!= "Teseracto") {
+        cout << "USUARIO INCORRECTO\n";
+        
+    }
+}
+
 // Esta función ahora devuelve un 'string'
-string obtenerNombre() {
-    string nombre;
+string obtenerDatos() {
+
+    string nombre, password;
     cout << "Ingresa tu nombre: ";
     cin >> nombre;
-    return nombre; // Devolvemos el nombre para que pueda ser usado en 'main'
+
+    cout << "Escriba su contraseña para ser guardada: ";
+    cin >> password;
+    return nombre, password; // Devolvemos el nombre y la contraseña para que pueda ser usado en 'main'
 }
